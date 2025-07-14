@@ -1,0 +1,18 @@
+{
+    "version": "1",
+  "manifest_version": 3,
+  "name": "website Blocker",
+  "description": "Blocks access to distracting websites you specify.",
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons":{
+    "16":"/images/blockchain.png",
+    "32":"/images/blockchain.png",
+    "48":"/images/blockchain.png"
+  },
+  "action":{
+    "default_popup":"popup.html"
+  }
+}
